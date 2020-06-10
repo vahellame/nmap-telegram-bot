@@ -20,7 +20,7 @@ cwd = os.getcwd()
 
 
 def check_site(site):
-    bad_letters = list(" !@#$%^&*(){}[]+/|\\?,\"'")
+    bad_letters = list(" !@#$%^&*(){}[]+/|\\?,\"'\t\n\b")
 
     site_is_good = True
 
