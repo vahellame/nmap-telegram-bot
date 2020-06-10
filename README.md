@@ -33,3 +33,9 @@ python3 -m venv venv
 ### WARNING
 
 In some CIS countries, it is impossible to connect to api.telegram.org without a proxy. To solve this problem, `config.py` specifies socks5 for Tor running locally. If your provider has access to api.telegram.org, you can change REQUEST_KWARGS to None and not install Tor.
+
+If the bot does not work after power on, restart Tor
+
+```
+sudo service tor restart
+```
