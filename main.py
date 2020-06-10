@@ -82,7 +82,7 @@ def main():
 
 if __name__ == '__main__':
     try:
-        os.mkdir("users_outputs")
+        os.mkdir("users_output")
     except FileExistsError:
         pass
 
