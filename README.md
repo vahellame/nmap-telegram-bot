@@ -11,7 +11,7 @@ Run in your console:
 
 ```
 sudo apt update && sudo apt -y dist-upgrade
-sudo apt install -y git python3-venv tor
+sudo apt install -y git python3-venv tor nmap
 git clone https://github.com/vahellame/nmap-telegram-bot.git
 cd nmap-telegram-bot
 ```
